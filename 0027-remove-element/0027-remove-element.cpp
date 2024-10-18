@@ -1,10 +1,5 @@
 class Solution {
-private:
-    void swap(int* a, int*b){
-        *a = *a + *b;
-        *b = *a - *b;
-        *a = *a - *b;
-    }
+
 public:
     int removeElement(vector<int>& nums, int val) {
         int i=0,j=0;
