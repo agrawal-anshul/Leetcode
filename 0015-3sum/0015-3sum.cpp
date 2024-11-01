@@ -1,40 +1,36 @@
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
-    // *No need to use sets as to skip duplicates. Instead we are sorting the vector and skipping over duplicate elements* 
-        sort(nums.begin(),nums.end());
-        vector<vector<int>>res;
-        for(int i=0;i<nums.size();i++){
+    std::vector<std::vector<int>> threeSum(std::vector<int>& nums) {
+        std::sort(nums.begin(), nums.end()); // Step 1: Sort the array
+        std::vector<std::vector<int>> res;
+
+        for (int i = 0; i < nums.size(); i++) {
             // Skip duplicates for the first number
             if (i > 0 && nums[i] == nums[i - 1]) continue;
 
-            int j=i+1;
-            int k=nums.size()-1;
-            while(j<k)
-            {
-                int sum =nums[i]+nums[j]+nums[k];
-                if(sum == 0)
-                {
-                    res.push_back({nums[i],nums[j],nums[k]});
+            int j = i + 1; // Second pointer
+            int k = nums.size() - 1; // Third pointer
 
-                    // Skip duplicates for the 2nd number
-                    while(j<k && nums[j]==nums[j+1])j++;
-                    // Skip duplicates for the 3rd number
-                    while(j<k && nums[k]==nums[k-1])k--;
+            while (j < k) {
+                int sum = nums[i] + nums[j] + nums[k]; // Step 2: Calculate the sum
+
+                if (sum == 0) {
+                    res.push_back({nums[i], nums[j], nums[k]}); // Step 3: Found a triplet
+
+                    // Skip duplicates for the second number
+                    while (j < k && nums[j] == nums[j + 1]) j++;
+                    // Skip duplicates for the third number
+                    while (j < k && nums[k] == nums[k - 1]) k--;
 
                     j++;
                     k--;
+                } else if (sum < 0) {
+                    j++; // Move left pointer to increase the sum
+                } else {
+                    k--; // Move right pointer to decrease the sum
                 }
-                else if(sum<0)
-                {
-                    j++;
-                }
-                else{
-                    k--;
-                } 
             }
-            
         }
-        return res;
+        return res; // Return the result
     }
 };
