@@ -12,8 +12,8 @@ public:
             int k=nums.size()-1;
             while(j<k)
             {
-                int sum = nums[j]+nums[k];
-                if(nums[i]+ sum == 0)
+                int sum =nums[i]+nums[j]+nums[k];
+                if(sum == 0)
                 {
                     res.push_back({nums[i],nums[j],nums[k]});
 
@@ -25,7 +25,7 @@ public:
                     j++;
                     k--;
                 }
-                else if(nums[i]+sum<0)
+                else if(sum<0)
                 {
                     j++;
                 }
