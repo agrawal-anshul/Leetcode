@@ -2,6 +2,7 @@ class Solution {
 public:
     bool isPalindrome(int x) {
         if(x<0)return false;
+        // q=quotient,r=remainder,reverse=reversed number
         long q=x,r=0,reverse=0;
         while(q!=0){
             r=q%10;
