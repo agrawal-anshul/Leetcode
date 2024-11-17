@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0189-rotate-array) |
@@ -90,9 +91,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/agrawal-anshul/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/agrawal-anshul/Leetcode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
