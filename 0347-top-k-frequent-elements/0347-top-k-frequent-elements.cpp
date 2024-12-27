@@ -13,10 +13,10 @@ public:
         for(auto it:mp){
             v.push_back({it.second,it.first});
         }
-        // sort(v.begin(),v.end(),compare);
-        sort(v.begin(),v.end(),[](const pair<int,int>& a,const pair<int,int>& b){
-            return a.first > b.first;
-        }); //using lamda function
+        sort(v.begin(),v.end(),compare);
+        // sort(v.begin(),v.end(),[](const pair<int,int>& a,const pair<int,int>& b){
+        //     return a.first > b.first;
+        // }); //using lamda function
 
         vector<int>res;
         for(int i=0;i<k;i++){
