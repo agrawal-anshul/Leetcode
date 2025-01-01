@@ -6,11 +6,27 @@ public:
         sort(nums.begin(),nums.end());
         
         for(int i=0;i<nums.size();i++){
-            // skip duplicates
+            // skip duplicates for nums[i]
             if (i > 0 && nums[i] == nums[i - 1]){
                 continue;
             } 
             int reqSum = target - nums[i];
+            
+            // HASHING SOLUTION:
+            unordered_map<int,int>mp;
+            for(int j=i+1;j<nums.size();j++){
+                int complement = reqSum-nums[j];
+                if(mp.find(complement) != mp.end()){
+                    res.push_back({nums[i],nums[j],complement});
+                    
+                    // Skip duplicates for nums[j]
+                    while (j + 1 < nums.size() && nums[j] == nums[j + 1]) j++;
+                }
+                mp[nums[j]] = j;
+            }
+
+            // TWO POINTER SOLUTION:
+            /*
             int l=i+1,r=nums.size()-1;
             while(l<r){
                 int sum = nums[l] + nums[r];
@@ -29,7 +45,11 @@ public:
                 else{
                         r--;
                 }
-            }
+            } 
+            */
+
+            
+
         }
         return res;
     }
