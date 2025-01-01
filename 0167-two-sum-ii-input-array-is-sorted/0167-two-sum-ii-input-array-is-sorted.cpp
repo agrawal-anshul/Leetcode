@@ -1,19 +1,19 @@
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& numbers, int target) {
-        unordered_map<int, int> mp;
-
-        for (int i = 0; i < numbers.size(); i++) {
-            int complement = target - numbers[i];
-
-            if (mp.find(complement) != mp.end()) {
-                return {mp[complement], i + 1}; // Return 1-based indices
+    vector<int> twoSum(vector<int>& nums, int target) {
+        int l=0,r=nums.size()-1;
+        while(l<r){
+            int sum = nums[l] + nums[r];
+            if(sum == target){
+                return{l+1,r+1};
             }
-
-            // Add the current number to the map
-            mp[numbers[i]] = i + 1; // Store 1-based index
+            else if(sum < target){
+                l++;
+            } 
+            else if(sum > target){
+                r--;
+            } 
         }
-
-        return {}; 
+        return{};
     }
 };
