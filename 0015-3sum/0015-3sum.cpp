@@ -13,6 +13,7 @@ public:
             int reqSum = target - nums[i];
             
             // HASHING SOLUTION:
+            /*
             unordered_map<int,int>mp;
             for(int j=i+1;j<nums.size();j++){
                 int complement = reqSum-nums[j];
@@ -24,6 +25,32 @@ public:
                 }
                 mp[nums[j]] = j;
             }
+            */
+
+            // TWO POINTER SOLUTION:
+            
+            int l=i+1,r=nums.size()-1;
+            while(l<r){
+                int sum = nums[l] + nums[r];
+                if(sum == reqSum){
+                    res.push_back({nums[i], nums[l], nums[r]});
+                    l++;
+                    r--;
+                    
+                    // skip duplicates
+                    while (l < r && nums[l-1] == nums[l]) l++;
+                    while (l < r && nums[r+1] == nums[r]) r--;
+                }
+                else if(sum<reqSum){
+                        l++;
+                }
+                else{
+                        r--;
+                }
+            } 
+            
+
+            
 
         }
         return res;
