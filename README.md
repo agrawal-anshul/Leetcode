@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/agrawal-anshul/Leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/agrawal-anshul/Leetcode/tree/master/0049-group-anagrams) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
+| [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/agrawal-anshul/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0136-single-number) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
@@ -155,4 +157,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/agrawal-anshul/Leetcode/tree/master/0011-container-with-most-water) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
