@@ -14,8 +14,6 @@ class Solution {
         for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
             if (board[i][j] == 'Q') return false;
         }
-
-        
         return true;
     }
 
