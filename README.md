@@ -60,11 +60,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
+| [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Hash Table
 |  |
@@ -175,4 +177,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/agrawal-anshul/Leetcode/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0090-subsets-ii) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
