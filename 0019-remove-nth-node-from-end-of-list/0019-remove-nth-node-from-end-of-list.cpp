@@ -11,54 +11,33 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        if(head==NULL){return head;}
+        // Dummy node added before head to simplify removal logic
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
 
+        // First and second pointers start at dummy
+        ListNode* first = dummy;
+        ListNode* second = dummy;
 
-        ListNode* curr = head;
-        ListNode* prev = head;
-
-        int len = 0;
-        while(curr){
-            len++;
-            curr=curr->next;
-        }
-        curr = head;
-
-        // delete the last node
-        if(n==1){
-            // mode than one node are present
-            if(len>1){
-                while(len-2 && curr){
-                    curr = curr->next;
-                    len--;
-                }
-                curr->next = NULL;
-                return head;
-            }
-
-            // delete the only node
-            if(len==1){
-                return NULL;
-            }
+        // Move second pointer n+1 steps ahead
+        for (int i = 0; i <= n; i++) {
+            second = second->next;
         }
 
-        int posFromStart = len-n+1;
-        while(posFromStart-2 && curr){
-            if(posFromStart==1)
-            {
-                // delete the first node
-                curr = head->next;
-                return curr;
-            }
-            
-            curr = curr->next;
-            posFromStart--;
+        // Move both pointers until second reaches end
+        while (second != nullptr) {
+            first = first->next;
+            second = second->next;
         }
-        
-        if(curr && curr->next && curr->next->next)
-        {
-            curr->next = curr->next->next;
-        }
-        return head;
+
+        // Remove the nth node from end
+        ListNode* temp = first->next;
+        first->next = temp->next;
+        delete temp;
+
+        // Return new head of the list
+        ListNode* newHead = dummy->next;
+        delete dummy;
+        return newHead;
     }
 };
