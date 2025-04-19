@@ -11,33 +11,35 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        // Dummy node added before head to simplify removal logic
-        ListNode* dummy = new ListNode(0);
-        dummy->next = head;
-
-        // First and second pointers start at dummy
+        // Adding a dummy node before the head to simplify edge case handling
+        ListNode* dummy = new ListNode(0, head);
         ListNode* first = dummy;
         ListNode* second = dummy;
-
-        // Move second pointer n+1 steps ahead
-        for (int i = 0; i <= n; i++) {
+        
+        for(int i = 0; i <=n and second!=nullptr; i++){
             second = second->next;
         }
 
-        // Move both pointers until second reaches end
-        while (second != nullptr) {
+        // If second reached end, we are deleting the head
+        if(second == nullptr){
+            ListNode* temp = head;
+            head = head->next;
+            delete temp;
+            return head;
+        }
+
+        // else if second is not nullptr -> Move both pointers until second is at the last node
+        while(second){
             first = first->next;
             second = second->next;
         }
-
-        // Remove the nth node from end
+        
+        // Delete the node after 'first'
         ListNode* temp = first->next;
         first->next = temp->next;
         delete temp;
 
-        // Return new head of the list
-        ListNode* newHead = dummy->next;
-        delete dummy;
-        return newHead;
+        
+        return head;
     }
 };
