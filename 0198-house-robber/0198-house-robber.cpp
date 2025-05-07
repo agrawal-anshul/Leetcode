@@ -39,27 +39,31 @@ class Solution {
         int n = nums.size();
         if(n == 0) return 0;
         if(n == 1) return nums[0];
+        if(n == 2) return max(nums[0], nums[1]);
 
-        int prev2 = nums[0];
-        int prev1 = max(nums[1], nums[0]);
+        int prev2 = nums[0];        // dp[i-2]
+        int prev1 = max(nums[0], nums[1]); // dp[i-1]
         int res = 0;
 
         for(int i = 2; i<n ; i++){
-            int pick = nums[i] + prev2;
-            int notpick = 0 + prev1;
-            int res = max(pick , notpick);
+            int curr = max(prev1, prev2 + nums[i]);
+            prev2 = prev1;
+            prev1 = curr;
         }
-        return res;
+        return prev1;
     }
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
+
         // return rob_recursive(nums,n-1);
 
         // vector<int> dp (nums.size(), -1);
         // return rob_memoization(nums,n-1,dp);
 
-        return rob_tabulation(nums);
+        // return rob_tabulation(nums);
+
+        return rob_space_optimized(nums);
 
     }
 };
