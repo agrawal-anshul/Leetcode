@@ -32,13 +32,34 @@ class Solution {
             }
 
             if(dp[n]!= -1)return dp[n];
+
             dp[0] = dp[1] = 1;
             dp[2] = 2;
-
             for(int i = 3; i<=n; i++){
                 dp[i] = dp[i-1] + dp[i-2] + dp[i-3];
             }
             return dp[n];
+        };
+
+        int tribonacciSpaceOptimized(int n){
+            if(n<2){
+               return 1;
+            }
+            if(n==2){
+                return 2;
+            }
+
+            int prev3 = 1 , prev2 = 1;
+            int prev1 = 2;
+            int curr = 0;
+            for(int i = 3; i<=n; i++){
+                curr = prev1 + prev2 + prev3;
+                
+                prev3 = prev2;
+                prev2 = prev1;
+                prev1 = curr;
+            }
+            return prev1;
         };
 public:
     int tribonacci(int n) {
@@ -49,9 +70,11 @@ public:
         if(n==0) return 0;
         // return tribonacciRecursive(n-1);
 
-        vector<int>dp(n+1,-1);
+        // vector<int>dp(n+1,-1);
         // return tribonacciMemo(n-1, dp);
-        return tribonacciBottomUp(n-1, dp);
+        // return tribonacciBottomUp(n-1, dp);
+
+        return tribonacciSpaceOptimized(n-1);
         
 
     }
