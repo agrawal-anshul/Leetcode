@@ -38,7 +38,7 @@ public:
         }
         return min(dp[n - 1], dp[n - 2]);
     }
-    int spaceOptimizedFn(int n, vector<int>& dp, vector<int>& cost){
+    int spaceOptimizedFn(int n, vector<int>& cost){
         int prev2 = cost[0];
         int prev1 = cost[1];
         int curr = 0;
@@ -54,8 +54,12 @@ public:
         int n = cost.size();
         // return min(recursiveFn(n - 1, cost), recursiveFn(n - 2, cost));
         
-        vector<int>dp(n, -1);
+        // vector<int>dp(n, -1);
         // return min( memoFn(n-1, dp, cost), memoFn(n-2, dp, cost));
-        return bottomUpFn(n, dp, cost);
+
+        // vector<int>dp(n, -1);
+        // return bottomUpFn(n, dp, cost);
+
+        return spaceOptimizedFn(n, cost);
     }
 };
