@@ -220,4 +220,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
+## Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
