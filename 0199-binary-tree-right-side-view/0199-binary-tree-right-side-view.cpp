@@ -51,7 +51,21 @@ public:
         return result;
     }
 
+    // Method-2:
+    // - Use DFS with priority on the right subtree.
+	// - Track the current depth. Add a node to the result only when we visit depth for the first time.
+    void dfs(TreeNode* node, int depth, vector<int>& res) {
+        if (node == nullptr) return;
+        if (depth == res.size()) res.push_back(node->val); // First node at this level
+        dfs(node->right, depth + 1, res);
+        dfs(node->left, depth + 1, res);
+    }
+
     vector<int> rightSideView(TreeNode* root) {
-        return rightSideViewHelper(root);
+        // return rightSideViewHelper(root);
+        
+        vector<int>res;
+        dfs(root,0,res);
+        return res;
     }
 };
