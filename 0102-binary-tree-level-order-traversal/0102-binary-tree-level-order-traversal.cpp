@@ -12,7 +12,7 @@
 class Solution {
 public:
     // Using nullptr as level marker
-    vector<vector<int>> helper(TreeNode* root, vector<vector<int>>&res){
+    vector<vector<int>> helper1(TreeNode* root, vector<vector<int>>&res){
         if(root == nullptr)return res;
         
         queue<TreeNode*>q;
@@ -71,7 +71,7 @@ public:
     }
     vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>>res;
-        // return helper1(root,res);
-        return helper2(root,res);
+        return helper1(root,res);
+        // return helper2(root,res);
     }
 };
