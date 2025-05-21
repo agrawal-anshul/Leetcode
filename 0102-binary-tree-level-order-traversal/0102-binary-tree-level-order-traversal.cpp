@@ -11,7 +11,8 @@
  */
 class Solution {
 public:
-    vector<vector<int>> helper(TreeNode* root, vector<vector<int>>res){
+    // Using nullptr as level marker
+    vector<vector<int>> helper(TreeNode* root, vector<vector<int>>&res){
         if(root == nullptr)return res;
         
         queue<TreeNode*>q;
@@ -43,8 +44,34 @@ public:
         }
         return res;
     }
+
+    // Without using nullptr as level marker
+    vector<vector<int>> helper2(TreeNode* root, vector<vector<int>>&res){
+        if(!root)return res;
+
+        queue<TreeNode*>q;
+        q.push(root);
+
+        while(!q.empty()){
+            int levelSize = q.size();
+            vector<int>level;
+
+            for(int i=0; i<levelSize; i++){
+                TreeNode* front = q.front();
+                q.pop();
+                
+                level.push_back(front->val);
+                
+                if(front->left)q.push(front->left);
+                if(front->right)q.push(front->right);
+            }
+            res.push_back(level);
+        }
+        return res;
+    }
     vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>>res;
-        return helper(root,res);
+        // return helper1(root,res);
+        return helper2(root,res);
     }
 };
