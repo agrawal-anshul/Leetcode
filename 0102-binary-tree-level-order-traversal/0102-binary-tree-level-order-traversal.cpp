@@ -30,7 +30,7 @@ public:
                 res.push_back(level);
                 level.clear();
                 
-                // Only add another nullptr if theres mpde nodes to process
+                // Only add another nullptr if theres nodes to process
                 if(!q.empty()){
                     q.push(nullptr);
                 }
