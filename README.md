@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/agrawal-anshul/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
+| [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Math
 |  |
 | ------- |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/agrawal-anshul/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/agrawal-anshul/Leetcode/tree/master/0940-fruit-into-baskets) |
+| [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/agrawal-anshul/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Linked List
 |  |
 | ------- |
@@ -179,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/agrawal-anshul/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/agrawal-anshul/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0424-longest-repeating-character-replacement](https://github.com/agrawal-anshul/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
