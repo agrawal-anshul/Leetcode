@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/agrawal-anshul/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/agrawal-anshul/Leetcode/tree/master/0051-n-queens) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
+| [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/agrawal-anshul/Leetcode/tree/master/0035-search-insert-position) |
+| [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/agrawal-anshul/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/agrawal-anshul/Leetcode/tree/master/0036-valid-sudoku) |
+| [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 ## Union Find
 |  |
 | ------- |
