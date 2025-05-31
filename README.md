@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/agrawal-anshul/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/agrawal-anshul/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/agrawal-anshul/Leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/agrawal-anshul/Leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/agrawal-anshul/Leetcode/tree/master/0242-valid-anagram) |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/agrawal-anshul/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/agrawal-anshul/Leetcode/tree/master/0046-permutations) |
