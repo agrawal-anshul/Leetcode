@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/agrawal-anshul/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/agrawal-anshul/Leetcode/tree/master/0130-surrounded-regions) |
+| [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 ## Greedy
 |  |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/agrawal-anshul/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 ## Breadth-First Search
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -353,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/agrawal-anshul/Leetcode/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
 | ------- |
