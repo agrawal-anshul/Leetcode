@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-car-fleet](https://github.com/agrawal-anshul/Leetcode/tree/master/0883-car-fleet) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [0940-fruit-into-baskets](https://github.com/agrawal-anshul/Leetcode/tree/master/0940-fruit-into-baskets) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/1127-last-stone-weight) |
 ## Two Pointers
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1013-fibonacci-number](https://github.com/agrawal-anshul/Leetcode/tree/master/1013-fibonacci-number) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/agrawal-anshul/Leetcode/tree/master/1236-n-th-tribonacci-number) |
 ## Dynamic Programming
 |  |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/agrawal-anshul/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0883-car-fleet](https://github.com/agrawal-anshul/Leetcode/tree/master/0883-car-fleet) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
@@ -201,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/agrawal-anshul/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
@@ -210,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Matrix
 |  |
 | ------- |
@@ -372,4 +378,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/agrawal-anshul/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
