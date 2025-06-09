@@ -1,7 +1,9 @@
 class Solution {
 public:
     int euclideanDistance(pair<int,int> a, pair<int,int> b ){
-        return int(pow((a.first - b.first),2) + pow((a.second - b.second),2));
+        int dx = a.first - b.first;
+        int dy = a.second - b.second;
+        return dx * dx + dy * dy;
     }
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         priority_queue< pair<int, pair<int,int>> >maxHeap;
