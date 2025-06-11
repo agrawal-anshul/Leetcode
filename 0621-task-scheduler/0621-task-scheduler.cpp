@@ -27,66 +27,66 @@ Space Complexity: O(26) = O(1)
 - Frequency map and max heap hold at most 26 elements.
 */
 
-class Solution {
-public:
-    int leastInterval(vector<char>& tasks, int n) {
-        // Frequency array for task counts
-        int freq[26] = {0};
-        for (int i = 0; i < tasks.size(); i++) {
-            freq[tasks[i] - 'A']++;
-        }
+// class Solution {
+// public:
+//     int leastInterval(vector<char>& tasks, int n) {
+//         // Frequency array for task counts
+//         int freq[26] = {0};
+//         for (int i = 0; i < tasks.size(); i++) {
+//             freq[tasks[i] - 'A']++;
+//         }
 
-        // Max heap to store frequencies
-        priority_queue<int> maxHeap;
-        for (int i = 0; i < 26; i++) {
-            if (freq[i] > 0) {
-                maxHeap.push(freq[i]);
-            }
-        }
+//         // Max heap to store frequencies
+//         priority_queue<int> maxHeap;
+//         for (int i = 0; i < 26; i++) {
+//             if (freq[i] > 0) {
+//                 maxHeap.push(freq[i]);
+//             }
+//         }
 
-        // Variable to store total time
-        int totalTime = 0;
+//         // Variable to store total time
+//         int totalTime = 0;
 
-        // Temporary queue to hold tasks for the next cycle
-        queue<int> waitQueue;
+//         // Temporary queue to hold tasks for the next cycle
+//         queue<int> waitQueue;
 
-        while (!maxHeap.empty()) {
-            int cycleTime = 0;
+//         while (!maxHeap.empty()) {
+//             int cycleTime = 0;
 
-            // List to keep track of tasks to be re-added after cycle
-            vector<int> toReadd;
+//             // List to keep track of tasks to be re-added after cycle
+//             vector<int> toReadd;
 
-            // Run up to (n + 1) tasks per cycle
-            for (int i = 0; i <= n; i++) {
-                if (!maxHeap.empty()) {
-                    int current = maxHeap.top();
-                    maxHeap.pop();
+//             // Run up to (n + 1) tasks per cycle
+//             for (int i = 0; i <= n; i++) {
+//                 if (!maxHeap.empty()) {
+//                     int current = maxHeap.top();
+//                     maxHeap.pop();
 
-                    // Execute the task and decrement frequency
-                    if (current - 1 > 0) {
-                        toReadd.push_back(current - 1);
-                    }
-                    cycleTime++;
-                }
-            }
+//                     // Execute the task and decrement frequency
+//                     if (current - 1 > 0) {
+//                         toReadd.push_back(current - 1);
+//                     }
+//                     cycleTime++;
+//                 }
+//             }
 
-            // Reinsert remaining tasks into the heap
-            for (int i = 0; i < toReadd.size(); i++) {
-                maxHeap.push(toReadd[i]);
-            }
+//             // Reinsert remaining tasks into the heap
+//             for (int i = 0; i < toReadd.size(); i++) {
+//                 maxHeap.push(toReadd[i]);
+//             }
 
-            // If heap is empty, add only executed time
-            // Else, add full cycle (including idle)
-            if (maxHeap.empty()) {
-                totalTime += cycleTime;
-            } else {
-                totalTime += (n + 1);
-            }
-        }
+//             // If heap is empty, add only executed time
+//             // Else, add full cycle (including idle)
+//             if (maxHeap.empty()) {
+//                 totalTime += cycleTime;
+//             } else {
+//                 totalTime += (n + 1);
+//             }
+//         }
 
-        return totalTime;
-    }
-};
+//         return totalTime;
+//     }
+// };
 
 /*
 Base Test Cases:
@@ -158,46 +158,46 @@ Space Complexity: O(26) = O(1)
 - Fixed-size array to count task frequencies.
 */
 
-// class Solution {
-// public:
-//     int leastInterval(vector<char>& tasks, int n) {
-//         // Frequency array to count occurrences of each task
-//         int freq[26] = {0};
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int n) {
+        // Frequency array to count occurrences of each task
+        int freq[26] = {0};
 
-//         // Count frequency of each task
-//         for (int i = 0; i < tasks.size(); i++) {
-//             int index = tasks[i] - 'A';
-//             freq[index]++;
-//         }
+        // Count frequency of each task
+        for (int i = 0; i < tasks.size(); i++) {
+            int index = tasks[i] - 'A';
+            freq[index]++;
+        }
 
-//         // Find the highest task frequency
-//         int maxFreq = 0;
-//         for (int i = 0; i < 26; i++) {
-//             if (freq[i] > maxFreq) {
-//                 maxFreq = freq[i];
-//             }
-//         }
+        // Find the highest task frequency
+        int maxFreq = 0;
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] > maxFreq) {
+                maxFreq = freq[i];
+            }
+        }
 
-//         // Count how many tasks have frequency equal to maxFreq
-//         int maxCount = 0;
-//         for (int i = 0; i < 26; i++) {
-//             if (freq[i] == maxFreq) {
-//                 maxCount++;
-//             }
-//         }
+        // Count how many tasks have frequency equal to maxFreq
+        int maxCount = 0;
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] == maxFreq) {
+                maxCount++;
+            }
+        }
 
-//         // Calculate the minimum required slots using frame method
-//         int partCount = maxFreq - 1;
-//         int partLength = n + 1;
-//         int minTime = partCount * partLength + maxCount;
+        // Calculate the minimum required slots using frame method
+        int partCount = maxFreq - 1;
+        int partLength = n + 1;
+        int minTime = partCount * partLength + maxCount;
 
-//         // Return the max of minTime and total tasks
-//         if (minTime > tasks.size()) {
-//             return minTime;
-//         }
-//         return tasks.size();
-//     }
-// };
+        // Return the max of minTime and total tasks
+        if (minTime > tasks.size()) {
+            return minTime;
+        }
+        return tasks.size();
+    }
+};
 
 /*
 Base Test Cases:
