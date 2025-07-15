@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/agrawal-anshul/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/agrawal-anshul/Leetcode/tree/master/0051-n-queens) |
+| [0063-unique-paths-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/agrawal-anshul/Leetcode/tree/master/0078-subsets) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/agrawal-anshul/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0063-unique-paths-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/agrawal-anshul/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/agrawal-anshul/Leetcode/tree/master/0036-valid-sudoku) |
+| [0063-unique-paths-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/agrawal-anshul/Leetcode/tree/master/0130-surrounded-regions) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
