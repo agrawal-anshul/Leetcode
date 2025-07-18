@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/agrawal-anshul/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0605-can-place-flowers](https://github.com/agrawal-anshul/Leetcode/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 | [0724-find-pivot-index](https://github.com/agrawal-anshul/Leetcode/tree/master/0724-find-pivot-index) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/agrawal-anshul/Leetcode/tree/master/0011-container-with-most-water) |
+| [0605-can-place-flowers](https://github.com/agrawal-anshul/Leetcode/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
 ## Backtracking
 |  |
