@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/1127-last-stone-weight) |
 | [1720-crawler-log-folder](https://github.com/agrawal-anshul/Leetcode/tree/master/1720-crawler-log-folder) |
+| [2675-find-the-width-of-columns-of-a-grid](https://github.com/agrawal-anshul/Leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 ## Two Pointers
 |  |
 | ------- |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
+| [2675-find-the-width-of-columns-of-a-grid](https://github.com/agrawal-anshul/Leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 ## Union Find
 |  |
 | ------- |
