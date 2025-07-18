@@ -1,18 +1,27 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int buy = prices[0];
-        int max_profit = INT_MIN;
-        int profit = 0;
-        for(int i=0;i<prices.size();i++){
-            profit = prices[i] - buy;
-            if(prices[i]<buy){
-                buy=prices[i];
-            }else if( profit > max_profit){
-                max_profit = profit;
-            }
-        }
-        return max_profit;
-    }
+        int n = prices.size();
+        if(n<=1)return 0;
 
+        int maxProfit = 0;
+        int buyIndex = 0, sellIndex = 1;
+
+        while(buyIndex < sellIndex and sellIndex < n){
+            int bp = prices[buyIndex];
+            int sp = prices[sellIndex];
+            int currProfit = sp - bp;
+            if(currProfit>0){
+                if(currProfit>maxProfit){
+                    maxProfit = currProfit;
+                }
+            }else{
+                // If profit is negative, move buyIndex to current sellIndex
+                buyIndex = sellIndex;
+            }
+            // Always move sellIndex forward
+            sellIndex++;
+        }
+        return maxProfit;
+    }
 };
