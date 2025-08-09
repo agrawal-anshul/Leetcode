@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/agrawal-anshul/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/agrawal-anshul/Leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1127-last-stone-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/1127-last-stone-weight) |
 | [1720-crawler-log-folder](https://github.com/agrawal-anshul/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2675-find-the-width-of-columns-of-a-grid](https://github.com/agrawal-anshul/Leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/agrawal-anshul/Leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 ## Math
 |  |
 | ------- |
