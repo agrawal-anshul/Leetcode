@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/agrawal-anshul/Leetcode/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
+| [0697-degree-of-an-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0724-find-pivot-index](https://github.com/agrawal-anshul/Leetcode/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/agrawal-anshul/Leetcode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/agrawal-anshul/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
+| [0697-degree-of-an-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0940-fruit-into-baskets](https://github.com/agrawal-anshul/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
