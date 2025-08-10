@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/agrawal-anshul/Leetcode/tree/master/1036-rotting-oranges) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/agrawal-anshul/Leetcode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1127-last-stone-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/1127-last-stone-weight) |
+| [1137-height-checker](https://github.com/agrawal-anshul/Leetcode/tree/master/1137-height-checker) |
 | [1720-crawler-log-folder](https://github.com/agrawal-anshul/Leetcode/tree/master/1720-crawler-log-folder) |
 | [2675-find-the-width-of-columns-of-a-grid](https://github.com/agrawal-anshul/Leetcode/tree/master/2675-find-the-width-of-columns-of-a-grid) |
 ## Two Pointers
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
 | [0883-car-fleet](https://github.com/agrawal-anshul/Leetcode/tree/master/0883-car-fleet) |
 | [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1137-height-checker](https://github.com/agrawal-anshul/Leetcode/tree/master/1137-height-checker) |
 ## Counting
 |  |
 | ------- |
@@ -417,4 +419,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/agrawal-anshul/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/agrawal-anshul/Leetcode/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
