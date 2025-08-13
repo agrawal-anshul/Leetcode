@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/agrawal-anshul/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0259-3sum-smaller](https://github.com/agrawal-anshul/Leetcode/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/agrawal-anshul/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/agrawal-anshul/Leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/agrawal-anshul/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0189-rotate-array) |
+| [0259-3sum-smaller](https://github.com/agrawal-anshul/Leetcode/tree/master/0259-3sum-smaller) |
 | [0283-move-zeroes](https://github.com/agrawal-anshul/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/agrawal-anshul/Leetcode/tree/master/0295-find-median-from-data-stream) |
 ## Binary Search
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/agrawal-anshul/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0259-3sum-smaller](https://github.com/agrawal-anshul/Leetcode/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
 | [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
@@ -161,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/agrawal-anshul/Leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/agrawal-anshul/Leetcode/tree/master/0242-valid-anagram) |
+| [0259-3sum-smaller](https://github.com/agrawal-anshul/Leetcode/tree/master/0259-3sum-smaller) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/agrawal-anshul/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
