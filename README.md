@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/agrawal-anshul/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/agrawal-anshul/Leetcode/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/agrawal-anshul/Leetcode/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/agrawal-anshul/Leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/agrawal-anshul/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/agrawal-anshul/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/agrawal-anshul/Leetcode/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/agrawal-anshul/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/agrawal-anshul/Leetcode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/agrawal-anshul/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
