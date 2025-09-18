@@ -1,27 +1,27 @@
 class Solution {
-    
 public:
-    static bool compare(const pair<int, int>& a, const pair<int, int>& b) {
-        return a.first > b.first;
-    }
+typedef pair<int, int> pi;
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        unordered_map<int,int>mp;
-        for(int i=0;i<nums.size();i++){
-            mp[nums[i]]++;
+        unordered_map<int, int> mp;
+        for (auto a : nums) {
+            mp[a]++;
         }
-        vector<pair<int,int>> v;
-        for(auto it:mp){
-            v.push_back({it.second,it.first});
-        }
-        sort(v.begin(),v.end(),compare);
-        // sort(v.begin(),v.end(),[](const pair<int,int>& a,const pair<int,int>& b){
-        //     return a.first > b.first;
-        // }); //using lamda function
+        priority_queue<pi, vector<pi>, greater<pi>> pq;
 
-        vector<int>res;
-        for(int i=0;i<k;i++){
-            res.push_back(v[i].second);
+        for (auto [ele, freq] : mp) {
+            pair<int,int> p = {freq, ele};
+            pq.push(p);
+            if (pq.size() > k)
+                pq.pop();
         }
-        return res;
+
+        vector<int> ans;
+        while(!pq.empty()){
+            int ele = pq.top().second;
+            ans.push_back(ele);
+            pq.pop();
+        }
+
+        return ans;
     }
 };
