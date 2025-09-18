@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/agrawal-anshul/Leetcode/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0137-single-number-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/agrawal-anshul/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/agrawal-anshul/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/agrawal-anshul/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/agrawal-anshul/Leetcode/tree/master/0012-integer-to-roman) |
 | [0066-plus-one](https://github.com/agrawal-anshul/Leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/agrawal-anshul/Leetcode/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/agrawal-anshul/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/agrawal-anshul/Leetcode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/agrawal-anshul/Leetcode/tree/master/0268-missing-number) |
 | [0912-random-pick-with-weight](https://github.com/agrawal-anshul/Leetcode/tree/master/0912-random-pick-with-weight) |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/agrawal-anshul/Leetcode/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/agrawal-anshul/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/agrawal-anshul/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/agrawal-anshul/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/agrawal-anshul/Leetcode/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/agrawal-anshul/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/agrawal-anshul/Leetcode/tree/master/0883-car-fleet) |
