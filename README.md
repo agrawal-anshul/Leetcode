@@ -259,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-verifying-an-alien-dictionary](https://github.com/agrawal-anshul/Leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1023-time-based-key-value-store](https://github.com/agrawal-anshul/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1720-crawler-log-folder](https://github.com/agrawal-anshul/Leetcode/tree/master/1720-crawler-log-folder) |
+| [2317-count-collisions-on-a-road](https://github.com/agrawal-anshul/Leetcode/tree/master/2317-count-collisions-on-a-road) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/agrawal-anshul/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/agrawal-anshul/Leetcode/tree/master/0883-car-fleet) |
 | [1720-crawler-log-folder](https://github.com/agrawal-anshul/Leetcode/tree/master/1720-crawler-log-folder) |
+| [2317-count-collisions-on-a-road](https://github.com/agrawal-anshul/Leetcode/tree/master/2317-count-collisions-on-a-road) |
 ## Randomized
 |  |
 | ------- |
@@ -463,4 +465,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/agrawal-anshul/Leetcode/tree/master/1137-height-checker) |
+## Simulation
+|  |
+| ------- |
+| [2317-count-collisions-on-a-road](https://github.com/agrawal-anshul/Leetcode/tree/master/2317-count-collisions-on-a-road) |
 <!---LeetCode Topics End-->
