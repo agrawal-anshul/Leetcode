@@ -149,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/agrawal-anshul/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/agrawal-anshul/Leetcode/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/agrawal-anshul/Leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/agrawal-anshul/Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/agrawal-anshul/Leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/agrawal-anshul/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/agrawal-anshul/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/agrawal-anshul/Leetcode/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/agrawal-anshul/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/agrawal-anshul/Leetcode/tree/master/0303-range-sum-query-immutable) |
@@ -232,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/agrawal-anshul/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/agrawal-anshul/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/agrawal-anshul/Leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/agrawal-anshul/Leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/agrawal-anshul/Leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -469,4 +472,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2317-count-collisions-on-a-road](https://github.com/agrawal-anshul/Leetcode/tree/master/2317-count-collisions-on-a-road) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/agrawal-anshul/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
