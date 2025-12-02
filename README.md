@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/agrawal-anshul/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/agrawal-anshul/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/agrawal-anshul/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0605-can-place-flowers](https://github.com/agrawal-anshul/Leetcode/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/agrawal-anshul/Leetcode/tree/master/0621-task-scheduler) |
@@ -257,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/agrawal-anshul/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/agrawal-anshul/Leetcode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/agrawal-anshul/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/agrawal-anshul/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/agrawal-anshul/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0990-verifying-an-alien-dictionary](https://github.com/agrawal-anshul/Leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -300,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/agrawal-anshul/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/agrawal-anshul/Leetcode/tree/master/0130-surrounded-regions) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
 ## Greedy
@@ -388,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/agrawal-anshul/Leetcode/tree/master/0257-binary-tree-paths) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
@@ -406,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/agrawal-anshul/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0210-course-schedule-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/agrawal-anshul/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/agrawal-anshul/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/agrawal-anshul/Leetcode/tree/master/0695-max-area-of-island) |
@@ -450,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/agrawal-anshul/Leetcode/tree/master/0133-clone-graph) |
 | [0210-course-schedule-ii](https://github.com/agrawal-anshul/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/agrawal-anshul/Leetcode/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
@@ -476,4 +482,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/agrawal-anshul/Leetcode/tree/master/0146-lru-cache) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/agrawal-anshul/Leetcode/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
